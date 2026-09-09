@@ -131,9 +131,6 @@ OnDisableは、Componentが無効になったときに呼びだされます。
 ### OnDestroy
 OnDestroyは、ComponentまたはGameObjectが廃棄される際に呼ばれます。
 
-##### 分類：クラス
-    プログラム本体のクラス
-
 ### using ～～　
 どの名前空間を使うのか指定する
 SystemであればSystem名前空間にあるクラスを利用できる
@@ -169,6 +166,9 @@ Systemという名前空間を使用するという宣言
 
 #### Mathf:Max
 Unityの数学ヘルパーで、引数のうち大きい方を返します。ここでは「HPが0未満にならないように」使っています。
+
+### [serializeField]
+privateで指定されている変数？をUnityのInspecterから設定できるようにする
 
 ### 変数
 ---
